@@ -1,0 +1,19 @@
+{
+  "name": "@taskylizard-monorepo/docs",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "build": "vitepress build",
+    "dev": "vitepress dev",
+    "preview": "vitepress preview"
+  },
+  "dependencies": {
+    "@taskylizard/colors": "workspace:^",
+    "@taskylizard/ui": "workspace:^",
+    "@taskylizard/ui-vp": "workspace:^",
+    "sass": "^1.80.6",
+    "unocss": "^0.64.0",
+    "vue": "^3.4.21"
+  }
+}

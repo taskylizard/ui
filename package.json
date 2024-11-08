@@ -1,0 +1,33 @@
+{
+  "name": "ui",
+  "version": "1.0.0",
+  "type": "module",
+  "private": true,
+  "scripts": {
+    "format": "biome format . --write",
+    "lint": "biome lint .",
+    "lint:fix": "biome lint . --write",
+    "lint:fix:unsafe": "biome lint . --unsafe",
+    "build": "pnpm --parallel -F @taskylizard/* build",
+    "release": "pnpm build && pnpm changeset publish",
+    "docs": "pnpm -F docs",
+    "version-packages": "changeset version",
+    "knip": "knip",
+    "prepack": "pnpm build"
+  },
+  "author": "taskylizard",
+  "license": "MIT",
+  "devDependencies": {
+    "@biomejs/biome": "^1.9.4",
+    "@changesets/cli": "^2.27.9",
+    "@taskylizard/biome-config": "^1.0.5",
+    "@types/node": "^22.9.0",
+    "@vue/tsconfig": "^0.5.1",
+    "knip": "^5.36.3",
+    "lefthook": "^1.8.2",
+    "mkdist": "^1.6.0",
+    "rollers": "^0.2.0",
+    "unbuild": "^2.0.0",
+    "vitepress": "^1.5.0"
+  }
+}
