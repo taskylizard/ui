@@ -24,7 +24,7 @@
     "@types/node": "^22.9.0",
     "@vue/tsconfig": "^0.6.0",
     "knip": "^5.37.1",
-    "lefthook": "^1.8.2",
+    "lefthook": "^1.8.4",
     "mkdist": "^1.6.0",
     "rollers": "^0.2.0",
     "unbuild": "^2.0.0",
