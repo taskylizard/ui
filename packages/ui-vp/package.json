@@ -32,7 +32,7 @@
     "components.d.ts",
     "dist"
   ],
-  "packageManager": "pnpm@9.14.2",
+  "packageManager": "pnpm@9.14.4",
   "engines": {
     "node": ">=22.11.0"
   },
