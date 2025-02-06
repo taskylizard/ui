@@ -19,16 +19,16 @@
   "license": "MIT",
   "devDependencies": {
     "@biomejs/biome": "^1.9.4",
-    "@changesets/cli": "^2.27.10",
+    "@changesets/cli": "^2.27.12",
     "@taskylizard/biome-config": "^1.0.5",
-    "@types/node": "^22.10.1",
+    "@types/node": "^22.13.1",
     "@vue/tsconfig": "^0.7.0",
-    "knip": "^5.38.3",
-    "lefthook": "^1.8.4",
+    "knip": "^5.43.6",
+    "lefthook": "^1.10.10",
     "mkdist": "^1.6.0",
     "rollers": "^0.2.0",
     "unbuild": "^2.0.0",
-    "vitepress": "^1.5.0"
+    "vitepress": "^1.6.3"
   },
-  "packageManager": "pnpm@9.14.4"
+  "packageManager": "pnpm@9.15.5"
 }
